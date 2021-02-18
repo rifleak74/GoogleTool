@@ -33,6 +33,6 @@ function main() {
     
   }
   var folder = DriveApp.getFoldersByName("雲端資料的資料夾名稱").next(); //選擇儲存的資料夾
-  var ff = folder.createFile("T2001D.csv",text,MimeType.PLAIN_TEXT);  
+  var ff = folder.createFile("檔案名稱.csv",text,MimeType.PLAIN_TEXT);  
 
 }
