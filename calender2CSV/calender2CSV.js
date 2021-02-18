@@ -9,7 +9,7 @@ function getCalender(calenderID) {
 }
 
 function main() {
-  eventCal = getCalender("c_pokpa5d7eccohje4hnl388a4l4@group.calendar.google.com")
+  eventCal = getCalender("你的日曆T")
   /** 取得所有行程 */
   var now = new Date();
   var longTimeAgo = new Date(2020, 7, 16, 0, 0)
