@@ -32,7 +32,7 @@ function main() {
     text = text + theTitle + "," + theID + "," + theCreators + "," + theStartTime + "," + theEndTime + "," + theLocation + "," + theDescription + "," + "\n";
     
   }
-  var folder = DriveApp.getFoldersByName("備份檔").next(); //選擇儲存的資料夾
+  var folder = DriveApp.getFoldersByName("雲端資料的資料夾名稱").next(); //選擇儲存的資料夾
   var ff = folder.createFile("T2001D.csv",text,MimeType.PLAIN_TEXT);  
 
 }
