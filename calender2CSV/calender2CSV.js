@@ -14,7 +14,7 @@ function main() {
   var now = new Date();
   var longTimeAgo = new Date(2020, 7, 16, 0, 0)
   var allEvents = eventCal.getEvents(longTimeAgo, now) // 取得所有行程
-  // var allEvents = eventCal.getEvents(longTimeAgo, now, {author: '使用者@gmail.com'}) // 取得特定者行程
+  // var allEvents = eventCal.getEvents(longTimeAgo, now, {author: '作者@gmail.com'}) // 取得特定作者行程
   // var allEvents = eventCal.getEvents(longTimeAgo, now, {search: 'Ivan'}) // 取得特定者行程
   // Logger.log(allEvents[0].getTitle())
 
